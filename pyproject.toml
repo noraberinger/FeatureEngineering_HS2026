@@ -1,0 +1,17 @@
+[project]
+name = "featureengineering-hs2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Raphael Lüthy", email = "raphael@lty.gg" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+featureengineering-hs2026 = "featureengineering_hs2026:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
